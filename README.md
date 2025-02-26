@@ -26,9 +26,9 @@ Each script is modularized for better reproducibility:
 │── 📂 notebooks/ (Jupyter & R Markdown Notebooks)  
 │── 📂 scripts/ (Python & R scripts). 
 │      ├── fetch_lyrics.py (Extract lyrics using Genius API)  
-│      ├── fetch_song_metadata.py (Get song duration & features from Spotify API)  #coming soon
+│      ├── fetch_song_metadata.py (Get song duration & features from Spotify API)  #coming soon  
 │      ├── process_lyrics.R (Clean text & calculate unique word count)  
-│      ├── generate_visualizations.R (Create plots using ggplot2). 
+│      ├── generate_visualizations_UniqueWordsbyAlbum/Artist.R (Create plots using ggplot2 for Unique Word Count per Song grouped by Artist & Album). 
 │── 📂 results/ (Visualizations & insights)  
 │── 📂 docs/ (Documentation, methods, and reports)  
 │── .gitignore (Excludes API keys & unnecessary files)  
