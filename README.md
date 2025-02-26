@@ -6,6 +6,8 @@ Analyzing lyrical complexity, song duration, and Spotify metadata across multipl
 📌 Tech Stack: Python, R, Pandas, Spotipy, Genius API, ggplot2  
 📌 Skills Demonstrated: API Data Extraction, Data Cleaning, Feature Engineering, Data Visualization, Statistical Analysis  
 
+ #### *AS ALWAYS: This is work in progress. Criticism and feedback is welcome, and perhaps even ackknowledged.*  
+
 ## 📖 Overview  
 This project explores the lyrical complexity of various hip-hop artists by analyzing:
 
@@ -60,4 +62,43 @@ Each script is modularized for better reproducibility:
 
     📌 All plots are available in the results/ folder.
 
+## 🛠️ Installation & Usage
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/lyrics-data-analysis.git
+cd lyrics-data-analysis
+``` 
+### 2️⃣ Install Dependencies
+```python
+pip install -r requirements.txt  # Python  
+conda env create -f environment.yml  # (Optional) Conda environment
+``` 
+### 3️⃣ Run Scripts
+#### Fetch lyrics:
+```python
+python scripts/fetch_lyrics.py
+```
+#### Fetch song metadata:
+```python
+python scripts/fetch_song_metadata.py
+```
+#### Process lyrics:
+```python
+python scripts/process_lyrics.py
+```
 
+# more is coming soon...
+
+## 🔗 API Documentation
+- [Genius API](https://docs.genius.com/) *(Used for lyrics scraping)*  
+- [Spotify API](https://developer.spotify.com/documentation/web-api/) *(Used for song duration & features)*
+  
+## 📌 Future Improvements  
+🔹 Expand dataset to more genres (rock, pop, jazz)  
+🔹 Add sentiment analysis to lyrics. 
+🔹 Automate pipeline with scheduled updates  
+
+# 👨‍💻 Author  
+- [Bene@GitHub]([https://docs.genius.com/](https://github.com/BenedictHempel)) *(But you already knew that, didn´t you..?)*
+- [Bene@BioLink]((https://bio.link/bhempel)) *(Find more projects)*
+- [Bene@LinkedIn]((https://bio.link/bhempel)) *(If you are feeling super serious)*
