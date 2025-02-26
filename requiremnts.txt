@@ -1,0 +1,9 @@
+requests
+lyricsgenius
+beautifulsoup4
+spotipy
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
