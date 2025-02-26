@@ -26,8 +26,8 @@ Each script is modularized for better reproducibility:
 │── 📂 notebooks/ (Jupyter & R Markdown Notebooks)  
 │── 📂 scripts/ (Python & R scripts). 
 │      ├── fetch_lyrics.py (Extract lyrics using Genius API)  
-│      ├── fetch_song_metadata.py (Get song duration & features from Spotify API)  
-│      ├── process_lyrics.py (Clean text & calculate unique word count)  
+│      ├── fetch_song_metadata.py (Get song duration & features from Spotify API)  #coming soon
+│      ├── process_lyrics.R (Clean text & calculate unique word count)  
 │      ├── generate_visualizations.R (Create plots using ggplot2). 
 │── 📂 results/ (Visualizations & insights)  
 │── 📂 docs/ (Documentation, methods, and reports)  
@@ -41,11 +41,11 @@ Each script is modularized for better reproducibility:
 ✅ Step 1: Fetch Lyrics & Store in TXT Files
 🔹 fetch_lyrics.py scrapes lyrics from Genius API & saves them in lyrics_data/.
 
-✅ Step 2: Extract Song Metadata
+✅ Step 2: Extract Song Metadata # coming soon
 🔹 fetch_song_metadata.py fetches duration, popularity, energy, and danceability from Spotify API.
 
 ✅ Step 3: Process Lyrics for Unique Word Count
-🔹 process_lyrics.py cleans text & counts unique words per song & artist.
+🔹 process_lyrics.R cleans text & counts unique words per song & artist.
 
 ✅ Step 4: Generate Insights & Plots
 🔹 generate_visualizations.R analyzes word diversity, song duration, and Spotify features.  
