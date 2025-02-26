@@ -99,6 +99,6 @@ python scripts/process_lyrics.py
 🔹 Automate pipeline with scheduled updates  
 
 # 👨‍💻 Author  
-- [Bene@GitHub]([https://docs.genius.com/](https://github.com/BenedictHempel)) *(But you already knew that, didn´t you..?)*
-- [Bene@BioLink]((https://bio.link/bhempel)) *(Find more projects)*
-- [Bene@LinkedIn]((https://bio.link/bhempel)) *(If you are feeling super serious)*
+- [Bene@GitHub](https://github.com/BenedictHempel) *(But you already knew that, didn´t you..?)*
+- [Bene@BioLink](https://bio.link/bhempel) *(Find more projects)*
+- [Bene@LinkedIn](https://www.linkedin.com/in/benedict-hempel-694691336) *(If you are feeling super serious)*
