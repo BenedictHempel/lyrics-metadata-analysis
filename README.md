@@ -28,7 +28,7 @@ Each script is modularized for better reproducibility:
 │      ├── fetch_lyrics.py (Extract lyrics using Genius API)  
 │      ├── fetch_song_metadata.py (Get song duration & features from Spotify API)  #coming soon  
 │      ├── process_lyrics.R (Clean text & calculate unique word count)  
-│      ├── generate_visualizations_UniqueWordsbyAlbum-Artist.R (Create plots using ggplot2 for Unique Word Count per Song grouped by Artist & Album). 
+│      ├── plt_UniqueWords-Album-Artist.R (Plot Unique Word Count per Song grouped by Artist & Album with ggplot)  
 │── 📂 results/ (Visualizations & insights)  
 │── 📂 docs/ (Documentation, methods, and reports)  
 │── .gitignore (Excludes API keys & unnecessary files)  
@@ -38,21 +38,22 @@ Each script is modularized for better reproducibility:
 
 ## 📊 Data Pipeline
 
-✅ Step 1: Fetch Lyrics & Store in TXT Files
+✅ Step 1: Fetch Lyrics & Store in TXT Files  
 🔹 fetch_lyrics.py scrapes lyrics from Genius API & saves them in lyrics_data/.
 
-✅ Step 2: Extract Song Metadata # coming soon
-🔹 fetch_song_metadata.py fetches duration, popularity, energy, and danceability from Spotify API.
+✅ Step 2: Extract Song Metadata # coming soon  
+🔹 fetch_song_metadata.py fetches duration, popularity, energy, and danceability from Spotify API. # coming soon  
 
-✅ Step 3: Process Lyrics for Unique Word Count
+✅ Step 3: Process Lyrics for Unique Word Count  
 🔹 process_lyrics.R cleans text & counts unique words per song & artist.
 
-✅ Step 4: Generate Insights & Plots
-🔹 generate_visualizations.R analyzes word diversity, song duration, and Spotify features.  
+✅ Step 4: Generate Insights & Plots  
+🔹 plt_UniqueWords-Album-Artist.R analyzes word diversity grouped by album across artists  
+🔹 generate_visualizations.R analyzes word diversity, song duration, and Spotify features #coming soon  
 
 ## 📊 Example Visualizations
 
-✅ Unique Words vs. Song Duration (Does longer duration mean more complex lyrics?) 
+✅ Unique Words vs. Song Duration (Does longer duration mean more complex lyrics?)  
 ✅ Lyrical Complexity vs. Song Popularity (Do highly streamed songs have richer vocabularies?)  
 ✅ Explicit Lyrics vs. Energy Level (Are explicit songs more energetic?)  
 ✅ Artist Comparison: (Who has the widest vocabulary in hip-hop?)  
