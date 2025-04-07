@@ -97,6 +97,8 @@ python scripts/process_lyrics.py
 🔹 Expand dataset to more genres (rock, pop, jazz)  
 🔹 Add sentiment analysis to lyrics. 
 🔹 Automate pipeline with scheduled updates  
+🔹 Add Wordclouds (already rendered)
+🔹 make interactive with shiny
 
 # 👨‍💻 Author  
 - [Bene@GitHub](https://github.com/BenedictHempel) *(But you already knew that, didn´t you..?)*
