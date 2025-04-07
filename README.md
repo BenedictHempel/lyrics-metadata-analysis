@@ -94,13 +94,13 @@ python scripts/process_lyrics.py
 - [Spotify API](https://developer.spotify.com/documentation/web-api/) *(Used for song duration & features)*
   
 ## 📌 Future Improvements  
-🔹 Expand dataset to more genres (rock, pop, jazz)  
-🔹 Add sentiment analysis to lyrics. 
-🔹 Automate pipeline with scheduled updates  
-🔹 Add Wordclouds (already rendered)  
-🔹 make interactive with shiny  
-🔹 going back in history  
-🔹 Alluvial for shared expressions and the corresponding origin  
+🔹 Expand dataset to more genres (rock, pop, jazz)   
+🔹 Add sentiment analysis to lyrics   
+🔹 Automate pipeline with scheduled updates   
+🔹 Add Wordclouds (already rendered)   
+🔹 make interactive with shiny   
+🔹 going back in history   
+🔹 Alluvial for shared expressions and the corresponding origin   
 
 # 👨‍💻 Author  
 - [Bene@GitHub](https://github.com/BenedictHempel) *(But you already knew that, didn´t you..?)*
